@@ -1,0 +1,32 @@
+header {
+  background-color: #d99129;
+  padding: .25rem;
+}
+
+h1 {
+  color: #1f342d;
+  text-align: center;
+}
+
+.Navi-List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.Navi a {
+  text-decoration: none;
+  background-color: #726667;
+  padding: .25em .5em .25em .5em;
+  margin: .25rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */

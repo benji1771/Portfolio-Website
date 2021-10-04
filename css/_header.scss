@@ -1,0 +1,25 @@
+header {
+    background-color: $color-orange;
+    padding: .25rem;
+}
+
+h1{
+    color: $color-darkgrey;
+    text-align: center;
+}
+.Navi-List {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+    
+}
+
+.Navi a{
+    text-decoration: none;
+    background-color: $color-grey;
+    padding: .25em .5em .25em .5em;
+    margin: .25rem;
+}
+
+
