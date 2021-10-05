@@ -1,10 +1,10 @@
 header {
-  background-color: #d99129;
+  background-color: #e4772e;
   padding: .25rem;
 }
 
 h1 {
-  color: #1f342d;
+  color: #323433;
   text-align: center;
 }
 
@@ -16,11 +16,13 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   list-style-type: none;
+  margin: .1rem 0 .1rem 0;
 }
 
-.Navi a {
+.Navi a,
+.Navi a:visited {
   text-decoration: none;
-  background-color: #726667;
+  color: #323433;
   padding: .25em .5em .25em .5em;
   margin: .25rem;
 }
@@ -28,5 +30,16 @@ h1 {
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #726667;
+}
+
+section {
+  margin: auto;
+  padding: 1rem;
+  background-color: #323433;
+  color: #b9adad;
 }
 /*# sourceMappingURL=main.css.map */

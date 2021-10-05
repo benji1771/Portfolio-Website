@@ -11,13 +11,15 @@ h1{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    
+    margin: .1rem 0 .1rem 0;
+
     
 }
 
-.Navi a{
+.Navi a,
+.Navi a:visited{
     text-decoration: none;
-    background-color: $color-grey;
+    color: $color-darkgrey;
     padding: .25em .5em .25em .5em;
     margin: .25rem;
 }
