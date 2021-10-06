@@ -1,6 +1,10 @@
 header {
   background-color: #e4772e;
-  padding: .25rem;
+  padding: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 h1 {
@@ -16,15 +20,87 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   list-style-type: none;
-  margin: .1rem 0 .1rem 0;
+  margin: .1rem 0 0 0;
 }
 
-.Navi a,
-.Navi a:visited {
+.Navi-Lists-Ref:hover a:visited,
+.Navi-Lists-Ref:hover a {
+  font-size: 1.5rem;
+  border-top-left-radius: .2rem;
+  border-top-right-radius: .2em;
+  color: #b9adad;
+  background-color: #323433;
+}
+
+.Navi-Lists-Ref a,
+.Navi-Lists-Ref a:visited {
   text-decoration: none;
   color: #323433;
   padding: .25em .5em .25em .5em;
-  margin: .25rem;
+}
+
+.About-Me {
+  padding-bottom: 20vw;
+  padding-top: 10vh;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
+  margin-bottom: -10vw;
+}
+
+.Skills {
+  padding-top: 25vw;
+  padding-bottom: 20vw;
+  background-color: #e4772e;
+  color: #323433;
+  -webkit-clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
+          clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
+  margin-bottom: -10vw;
+}
+
+.Skills-List {
+  list-style: none;
+  width: 88%;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.Skills-List li {
+  margin-top: .2rem;
+}
+
+.Skills-Progress-Bar-One {
+  border-radius: 1rem;
+  background-color: #323433;
+  height: 1rem;
+  width: 100%;
+}
+
+.Skills-Progress-Bar-Two {
+  border-radius: 1rem;
+  background-color: #323433;
+  height: 1rem;
+  width: 83%;
+}
+
+.Skills-Progress-Bar-Three {
+  border-radius: 1rem;
+  background-color: #323433;
+  height: 1rem;
+  width: 67%;
+}
+
+.Skills-Progress-Bar-Four {
+  border-radius: 1rem;
+  background-color: #323433;
+  height: 1rem;
+  width: 65%;
+}
+
+.Skills-Progress-Bar-Five {
+  border-radius: 1rem;
+  background-color: #323433;
+  height: 1rem;
+  width: 50%;
 }
 
 * {
@@ -41,5 +117,15 @@ section {
   padding: 1rem;
   background-color: #323433;
   color: #b9adad;
+  font-size: 1.8rem;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.Education {
+  padding-top: 25vw;
+  padding-bottom: 20vw;
 }
 /*# sourceMappingURL=main.css.map */

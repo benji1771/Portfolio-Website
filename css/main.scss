@@ -2,21 +2,31 @@
 
 @import "./variables";
 @import "./header";
-@import "./sectionOne";
+@import "./About-me";
+@import "./Skills";
 * {
     margin: 0;
     padding: 0;
-    
-    
 }
 
 body {
     background-color: $color-grey;
-
+    
 }
 section {
     margin: auto;
+    //max-width: 900px;
     padding:1rem;
     background-color: $color-darkgrey;
     color: $color-lightgrey;
+    font-size: 1.8rem;
+    h2 {
+        text-align: center;
+    }
+}
+
+
+.Education {
+    padding-top: 25vw;
+    padding-bottom: 20vw;
 }

@@ -1,0 +1,52 @@
+.Skills {
+    padding-top:25vw;
+    padding-bottom:20vw;
+    background-color: $color-orange;
+    color: $color-darkgrey;
+    clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
+    margin-bottom: -10vw;
+}
+.Skills-List {
+    list-style: none;
+    width:88%;
+    margin:auto;
+    text-transform: uppercase;
+    li {
+        margin-top: .2rem;
+    }
+}
+
+.Skills-Progress-Bar-One {
+    border-radius: 1rem;;
+    background-color: $color-darkgrey;
+    height: 1rem;
+    width: 100%
+}
+
+.Skills-Progress-Bar-Two {
+    border-radius: 1rem;;
+    background-color: $color-darkgrey;
+    height: 1rem;
+    width: 83%
+}
+
+.Skills-Progress-Bar-Three {
+    border-radius: 1rem;;
+    background-color: $color-darkgrey;
+    height: 1rem;
+    width: 67%
+}
+
+.Skills-Progress-Bar-Four {
+    border-radius: 1rem;;
+    background-color: $color-darkgrey;
+    height: 1rem;
+    width: 65%
+}
+
+.Skills-Progress-Bar-Five {
+    border-radius: 1rem;;
+    background-color: $color-darkgrey;
+    height: 1rem;
+    width: 50%
+}
