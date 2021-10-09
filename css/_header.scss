@@ -3,13 +3,84 @@ header {
     padding: 0;
     position: sticky;
     top:0;
-    z-index:999;
+    z-index:10;
+    display:flex;
 }
 
-h1{
+h1 {
     color: $color-darkgrey;
-    text-align: center;
+    text-align: left;
+    padding: .24rem;
 }
+
+.Navigation-Toggle {
+    background-color: $color-orange;
+    border: 0;
+    padding: 0;
+    height: 26.666px;
+    margin: auto .60rem auto auto;
+}
+
+.hamburger,
+.hamburger::before, 
+.hamburger::after {
+    display: block;
+    background-color: $color-darkgrey;
+    width: 2em;
+    height: 3px;
+    border-radius: 1rem;
+}
+
+.hamburger::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+}
+
+.hamburger {
+    position: relative;
+
+}
+
+.hamburger::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+}
+
+.Navi {
+    width: 100%;
+    top:2.9rem;
+    position: absolute;
+    font-size: 1.5rem;
+    
+    &-Lists{
+        margin-top: .5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        background-color: $color-orange;
+        border-radius: .25rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        list-style-type: none;
+        text-align: center;
+        &-Ref {
+            
+            a,
+            a:visited {
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+                display: block;
+                width: 100%;
+                color: $color-darkgrey;
+                text-decoration: none;  
+
+            }
+        }
+    }
+}
+/*
 .Navi-List {
     display: flex;
     justify-content: center;
@@ -35,5 +106,5 @@ h1{
     padding: .25em .5em .25em .5em;
     //margin: .25rem;
 }
-
+*/
 
