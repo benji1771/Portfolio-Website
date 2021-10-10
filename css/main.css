@@ -220,7 +220,6 @@ h1 {
   padding-bottom: 30rem;
   padding-left: 0;
   padding-right: 0;
-  overflow-x: hidden;
 }
 
 .Card-Container {
@@ -244,7 +243,7 @@ h1 {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
-  width: 50vw;
+  width: 18.125rem;
   height: 50vh;
   background-color: #e4772e;
   color: #323433;
