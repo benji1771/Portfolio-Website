@@ -108,6 +108,11 @@ h1 {
           box-shadow: 0 3px 5px black;
 }
 
+.Navi-Lists-Ref {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .Navi-Lists-Ref a,
 .Navi-Lists-Ref a:visited {
   position: relative;
