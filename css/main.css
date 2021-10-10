@@ -223,6 +223,8 @@ h1 {
 }
 
 .Card-Container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,10 +246,12 @@ h1 {
       -ms-flex: none;
           flex: none;
   width: 18.125rem;
-  height: 50vh;
+  height: 28.125rem;
   background-color: #e4772e;
   color: #323433;
   border-radius: 2rem;
+  -webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
+          box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
 }
 
 .Experience-Card:first-child {

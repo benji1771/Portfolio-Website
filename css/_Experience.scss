@@ -6,6 +6,8 @@
 }
 
 .Card-Container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x;
@@ -31,9 +33,9 @@
     display: block;
     flex: none;
     width: 18.125rem;
-    height: 50vh;
+    height: 28.125rem;
     background-color: $color-orange;
     color: $color-darkgrey;
     border-radius: 2rem;
-    
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
 }
