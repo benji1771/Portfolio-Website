@@ -1,0 +1,39 @@
+.Experience {
+    padding-top: 25vw;
+    padding-bottom: 30rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.Card-Container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    li {
+        list-style-type: none;
+    }
+}
+
+.Experience-Card {
+    
+    &:first-child{
+        margin-left: 25vw;
+    }
+    &:last-child {
+        margin-right: 25vw;
+    }
+    &:not(:last-child) {
+        margin-right: 1rem;
+    }
+    padding: 1rem;
+    scroll-snap-align: center;
+    text-align: center;
+    display: block;
+    flex: none;
+    width: 50vw;
+    height: 50vh;
+    background-color: $color-orange;
+    color: $color-darkgrey;
+    border-radius: 2rem;
+    
+}

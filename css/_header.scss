@@ -72,9 +72,9 @@ h1 {
     opacity: 0;
     visibility: hidden;
     width: 100%;
-    top:2.9rem;
+    top: calc(100% + 1rem);
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     transform: translateY(-.5rem);
     
     &.open {

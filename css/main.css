@@ -79,9 +79,9 @@ h1 {
   opacity: 0;
   visibility: hidden;
   width: 100%;
-  top: 2.9rem;
+  top: calc(100% + 1rem);
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   -webkit-transform: translateY(-0.5rem);
           transform: translateY(-0.5rem);
 }
@@ -215,6 +215,54 @@ h1 {
   width: 50%;
 }
 
+.Experience {
+  padding-top: 25vw;
+  padding-bottom: 30rem;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+}
+
+.Card-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x;
+      scroll-snap-type: x;
+}
+
+.Card-Container li {
+  list-style-type: none;
+}
+
+.Experience-Card {
+  padding: 1rem;
+  scroll-snap-align: center;
+  text-align: center;
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 50vw;
+  height: 50vh;
+  background-color: #e4772e;
+  color: #323433;
+  border-radius: 2rem;
+}
+
+.Experience-Card:first-child {
+  margin-left: 25vw;
+}
+
+.Experience-Card:last-child {
+  margin-right: 25vw;
+}
+
+.Experience-Card:not(:last-child) {
+  margin-right: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -240,10 +288,5 @@ section {
 
 section h2 {
   text-align: center;
-}
-
-.Education {
-  padding-top: 25vw;
-  padding-bottom: 20vw;
 }
 /*# sourceMappingURL=main.css.map */
