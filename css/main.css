@@ -163,45 +163,89 @@ h1 {
 */
 .About-Me {
   padding-bottom: 20vw;
-  padding-top: 10vh;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
   margin-bottom: -10vw;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
 }
 
 .Intro {
   height: 100vh;
   margin: 0;
   padding: 3rem;
-  padding-top: calc(50vh - 3rem);
+  background-image: url("../img/Blurred.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.Intro-di {
+  position: absolute;
+  bottom: 20vh;
 }
 
 .Intro p {
-  color: #151518;
+  color: #dbbabd;
+  z-index: 99;
 }
 
 .Intro h1 {
-  color: #27282e;
+  color: #b15d29;
   padding: 0;
+  z-index: 109;
 }
 
 .desc {
+  background-color: #db7632;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
   height: 100vh;
 }
 
 .Skills {
-  padding-top: 20vw;
-  padding-bottom: 20vw;
   background-color: #323433;
   color: #db7632;
   -webkit-clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
           clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
   margin-bottom: -10vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Skills-Box {
+  width: 88%;
 }
 
 .Skills-List {
   list-style: none;
-  width: 88%;
   margin: auto;
   text-transform: uppercase;
 }
@@ -310,7 +354,7 @@ html {
 }
 
 body {
-  background-color: #726667;
+  background-color: #dbbabd;
   height: 100vh;
 }
 

@@ -1,29 +1,50 @@
 .About-Me {
     padding-bottom: 20vw;
-    padding-top: 10vh;
     clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
     margin-bottom: -10vw;
-    
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
 
     &__Header {
         
     }
+
+
 }
 
 .Intro {
     height:100vh;
     margin:0;
     padding: 3rem;
-    padding-top: calc(50vh - 3rem);
+    background-image: url("../img/Blurred.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    &-di {
+        position: absolute;
+        bottom:20vh;
+    }
+    z-index: 1;
     p {
-        color: $color-black;
+        color: $color-grey;
+        z-index: 99;
+        
     }
     h1 {
-        color: $color-lightgrey;
+        color: $color-darkOrange;
         padding: 0;
+        z-index: 109;
     }
 }
 
 .desc {
-    height: 100vh;
+    background-color: $color-darkgrey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    height:100vh;
 }

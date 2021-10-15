@@ -1,14 +1,22 @@
 .Skills {
-    padding-top:20vw;
-    padding-bottom:20vw;
+    //padding-top:20vw;
+    //padding-bottom:50vw;
     background-color: $color-orange;
     color: $color-darkgrey;
     clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
     margin-bottom: -10vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &-Box{
+        width: 88%;
+    }
 }
 .Skills-List {
     list-style: none;
-    width:88%;
+
     margin:auto;
     text-transform: uppercase;
     li {
