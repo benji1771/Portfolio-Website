@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Andada+Pro&family=Patua+One&display=swap");
 header {
-  background-color: #e4772e;
+  background-color: #323433;
   padding: 0;
   position: -webkit-sticky;
   position: sticky;
@@ -15,14 +16,23 @@ header.open {
           box-shadow: 0 0 5px black;
 }
 
+.Header-Name {
+  padding: .3rem;
+}
+
+.Header-Name a, .Header-Name a:visited {
+  text-decoration: none;
+  font-size: .70rem;
+}
+
 h1 {
-  color: #323433;
+  color: #db7632;
   text-align: left;
   padding: .24rem;
 }
 
 .Navigation-Toggle {
-  background-color: #e4772e;
+  background-color: #323433;
   border: 0;
   padding: 0;
   height: 26.666px;
@@ -33,7 +43,7 @@ h1 {
 .hamburger::before,
 .hamburger::after {
   display: block;
-  background-color: #323433;
+  background-color: #db7632;
   width: 2em;
   height: 4px;
   border-radius: 1rem;
@@ -46,7 +56,7 @@ h1 {
 }
 
 .hamburger.open {
-  background-color: #e4772e;
+  background-color: #323433;
 }
 
 .hamburger.open::before {
@@ -98,7 +108,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  background-color: #e4772e;
+  background-color: #323433;
   border-radius: .25rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -120,7 +130,7 @@ h1 {
   padding-bottom: .5rem;
   display: block;
   width: 100%;
-  color: #323433;
+  color: #db7632;
   text-decoration: none;
 }
 
@@ -159,11 +169,31 @@ h1 {
   margin-bottom: -10vw;
 }
 
+.Intro {
+  height: 100vh;
+  margin: 0;
+  padding: 3rem;
+  padding-top: calc(50vh - 3rem);
+}
+
+.Intro p {
+  color: #151518;
+}
+
+.Intro h1 {
+  color: #27282e;
+  padding: 0;
+}
+
+.desc {
+  height: 100vh;
+}
+
 .Skills {
-  padding-top: 25vw;
+  padding-top: 20vw;
   padding-bottom: 20vw;
-  background-color: #e4772e;
-  color: #323433;
+  background-color: #323433;
+  color: #db7632;
   -webkit-clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
           clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
   margin-bottom: -10vw;
@@ -182,35 +212,35 @@ h1 {
 
 .Skills-Progress-Bar-One {
   border-radius: 1rem;
-  background-color: #323433;
+  background-color: #db7632;
   height: 1rem;
   width: 100%;
 }
 
 .Skills-Progress-Bar-Two {
   border-radius: 1rem;
-  background-color: #323433;
+  background-color: #db7632;
   height: 1rem;
   width: 83%;
 }
 
 .Skills-Progress-Bar-Three {
   border-radius: 1rem;
-  background-color: #323433;
+  background-color: #db7632;
   height: 1rem;
   width: 67%;
 }
 
 .Skills-Progress-Bar-Four {
   border-radius: 1rem;
-  background-color: #323433;
+  background-color: #db7632;
   height: 1rem;
   width: 65%;
 }
 
 .Skills-Progress-Bar-Five {
   border-radius: 1rem;
-  background-color: #323433;
+  background-color: #db7632;
   height: 1rem;
   width: 50%;
 }
@@ -229,8 +259,8 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
-  -ms-scroll-snap-type: x;
-      scroll-snap-type: x;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
 }
 
 .Card-Container li {
@@ -247,8 +277,8 @@ h1 {
           flex: none;
   width: 18.125rem;
   height: 28.125rem;
-  background-color: #e4772e;
-  color: #323433;
+  background-color: #323433;
+  color: #db7632;
   border-radius: 2rem;
   -webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
           box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
@@ -271,21 +301,24 @@ h1 {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Patua One', cursive;
 }
 
 html {
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body {
   background-color: #726667;
+  height: 100vh;
 }
 
 section {
   margin: auto;
   padding: 1rem;
-  background-color: #323433;
-  color: #b9adad;
+  background-color: #db7632;
+  color: #27282e;
   font-size: 1.8rem;
 }
 

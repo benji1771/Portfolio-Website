@@ -10,7 +10,7 @@
     padding-bottom: 1rem;
     display: flex;
     overflow-x: auto;
-    scroll-snap-type: x;
+    scroll-snap-type: x mandatory;
     li {
         list-style-type: none;
     }

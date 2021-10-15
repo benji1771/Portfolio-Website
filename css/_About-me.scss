@@ -3,5 +3,27 @@
     padding-top: 10vh;
     clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
     margin-bottom: -10vw;
+    
 
+    &__Header {
+        
+    }
+}
+
+.Intro {
+    height:100vh;
+    margin:0;
+    padding: 3rem;
+    padding-top: calc(50vh - 3rem);
+    p {
+        color: $color-black;
+    }
+    h1 {
+        color: $color-lightgrey;
+        padding: 0;
+    }
+}
+
+.desc {
+    height: 100vh;
 }
