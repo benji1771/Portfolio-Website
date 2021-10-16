@@ -224,7 +224,7 @@ h1 {
   -webkit-clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
           clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
   margin-bottom: -10vw;
-  height: 100vh;
+  height: 140vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
