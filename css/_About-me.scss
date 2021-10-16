@@ -12,12 +12,14 @@
 .Intro {
     height:100vh;
     margin:0;
+    margin-bottom: 1rem;
     padding: 3rem;
     background-image: url("../img/Blurred.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position:relative;
+    font-size: 2rem;
     &-di {
         position: absolute;
         bottom:20vh;
@@ -40,7 +42,17 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 5rem;
     padding: 2rem;
-    height:100vh;
+    //height:100vh;
+
+    &-card{
+        
+        h2 {
+            text-align: left;
+            
+        }
+    }
 }
+

@@ -174,12 +174,14 @@ h1 {
 .Intro {
   height: 100vh;
   margin: 0;
+  margin-bottom: 1rem;
   padding: 3rem;
   background-image: url("../img/Blurred.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  font-size: 2rem;
   z-index: 1;
 }
 
@@ -210,12 +212,14 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5rem;
   padding: 2rem;
-  height: 100vh;
+}
+
+.desc-card h2 {
+  text-align: left;
 }
 
 .Skills {
@@ -324,7 +328,7 @@ h1 {
   height: 28.125rem;
   background-color: #323433;
   color: #db7632;
-  border-radius: 2rem;
+  border-radius: .5rem;
   -webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
           box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
 }
@@ -364,10 +368,21 @@ section {
   padding: 1rem;
   background-color: #db7632;
   color: #27282e;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 section h2 {
   text-align: center;
+}
+
+@media (min-width: 900px) {
+  .desc {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 100vh;
+  }
+  .Skills-Box {
+    width: 900px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
