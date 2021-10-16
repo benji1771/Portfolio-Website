@@ -11,9 +11,12 @@
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    scrollbar-color: $color-orange $color-darkgrey;
+    
     li {
         list-style-type: none;
     }
+    
 }
 
 .Experience-Card {

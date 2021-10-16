@@ -5,3 +5,12 @@ $color-grey: #dbbabd;
 $color-orange: hsl(150, 2%, 20%);
 $color-darkOrange: #b15d29;
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Andada+Pro&family=Patua+One&display=swap');
+@mixin hideScrollbar {
+    // https://blogs.msdn.microsoft.com/kurlak/2013/11/03/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari/
+    &::-webkit-scrollbar {
+      width: 0 !important
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }

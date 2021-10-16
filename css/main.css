@@ -305,6 +305,7 @@ h1 {
   overflow-x: auto;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
+  scrollbar-color: #323433 #db7632;
 }
 
 .Card-Container li {

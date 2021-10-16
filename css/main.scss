@@ -3,12 +3,15 @@
 @import "./About-me";
 @import "./Skills";
 @import "./Experience";
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Patua One', cursive;
 }
+
 html {
     scroll-behavior: smooth;
     height: 100vh;
