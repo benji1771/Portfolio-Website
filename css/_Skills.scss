@@ -1,8 +1,8 @@
 .Skills {
     //padding-top:20vw;
     //padding-bottom:50vw;
-    background-color: $color-orange;
-    color: $color-darkgrey;
+    background-color: $color-darkgrey;
+    color: $color-orange;
     clip-path: polygon(0 10vw, 100% 0%, 100% calc(100% - 10vw), 0% 100%);
     margin-bottom: -10vw;
     height:140vh;
@@ -26,35 +26,35 @@
 
 .Skills-Progress-Bar-One {
     border-radius: 1rem;;
-    background-color: $color-darkgrey;
+    background-color: $color-orange;
     height: 1rem;
     width: 100%
 }
 
 .Skills-Progress-Bar-Two {
     border-radius: 1rem;;
-    background-color: $color-darkgrey;
+    background-color: $color-orange;
     height: 1rem;
     width: 83%
 }
 
 .Skills-Progress-Bar-Three {
     border-radius: 1rem;;
-    background-color: $color-darkgrey;
+    background-color: $color-orange;
     height: 1rem;
     width: 67%
 }
 
 .Skills-Progress-Bar-Four {
     border-radius: 1rem;;
-    background-color: $color-darkgrey;
+    background-color: $color-orange;
     height: 1rem;
     width: 65%
 }
 
 .Skills-Progress-Bar-Five {
     border-radius: 1rem;;
-    background-color: $color-darkgrey;
+    background-color: $color-orange;
     height: 1rem;
     width: 50%
 }

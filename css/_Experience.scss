@@ -1,8 +1,9 @@
 .Experience {
-    padding-top: 25vw;
-    padding-bottom: 30rem;
+    padding-top: calc(10vh + 15vw);
+    height: 110vh;
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .Card-Container {
@@ -11,12 +12,12 @@
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    scrollbar-color: $color-orange $color-darkgrey;
+    scrollbar-color: $color-darkgrey $color-orange;
     ::-webkit-scrollbar-track {
-        background: $color-darkgrey;
+        background: $color-orange;
     }
     ::-webkit-scrollbar-thumb {
-        background: $color-orange;
+        background: $color-darkgrey;
     }
 
     li {
@@ -41,10 +42,10 @@
     text-align: center;
     display: block;
     flex: none;
-    width: 18.125rem;
+    width: clamp(300px, 88vw, 400px);
     height: 28.125rem;
-    background-color: $color-orange;
-    color: $color-darkgrey;
+    background-color: $color-darkgrey;
+    color: $color-orange;
     border-radius: .5rem;
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.466);
 }

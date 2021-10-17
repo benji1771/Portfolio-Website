@@ -29,7 +29,7 @@ section {
     margin: auto;
     //max-width: 900px;
     padding:1rem;
-    background-color: $color-darkgrey;
+    background-color: $color-orange;
     color: $color-lightgrey;
     font-size: 1.5rem;
     h2 {
@@ -39,12 +39,57 @@ section {
 
 @media (min-width:900px){
     .desc {
-        flex-wrap: nowrap;
-        height: 100vh;
+        h1 {
+            margin-top: auto;
+            width: 100%;
+        }
+        &-card{
+            flex: 1;
+            h2 {
+                text-align: left;
+                
+            }
+        }
     }
     .Skills-Box{
         width: 900px;
     }
-}
+    .Experience {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        //padding-top: 10vw;
+    }
+    .Card-Container {
+        width: 67%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+    .Experience-Card {
+        width: 100%;
 
+        &:first-child{
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+    }
+}
+@media (min-width:1500px) {
+
+
+    .Card-Container {
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+}
 
