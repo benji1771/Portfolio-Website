@@ -21,8 +21,6 @@ html {
 body {
     background-color: $color-grey;
     height: 100vh;
-
-    
 }
 
 section {
@@ -39,9 +37,12 @@ section {
 
 @media (min-width:900px){
     .desc {
+        height: 100vh;
+        
         h1 {
             margin-top: auto;
             width: 100%;
+            margin-bottom: -8vw;
         }
         &-card{
             flex: 1;
@@ -52,7 +53,7 @@ section {
         }
     }
     .Skills-Box{
-        width: 900px;
+        width: 67%;
     }
     .Experience {
         display: flex;
@@ -74,9 +75,7 @@ section {
     }
 }
 @media (min-width:1500px) {
-    .Skills-Box{
-        width: 1200px;
-    }
+    
     .Card-Container {
 
         grid-template-columns: 1fr 1fr 1fr;
