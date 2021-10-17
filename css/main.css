@@ -312,6 +312,14 @@ h1 {
   scrollbar-color: #323433 #db7632;
 }
 
+.Card-Container ::-webkit-scrollbar-track {
+  background: #db7632;
+}
+
+.Card-Container ::-webkit-scrollbar-thumb {
+  background: #323433;
+}
+
 .Card-Container li {
   list-style-type: none;
 }

@@ -12,7 +12,13 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scrollbar-color: $color-orange $color-darkgrey;
-    
+    ::-webkit-scrollbar-track {
+        background: $color-darkgrey;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: $color-orange;
+    }
+
     li {
         list-style-type: none;
     }
