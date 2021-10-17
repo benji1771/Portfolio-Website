@@ -71,20 +71,12 @@ section {
     .Experience-Card {
         width: 100%;
 
-        &:first-child{
-            margin-left: 0;
-        }
-        &:last-child {
-            margin-right: 0;
-        }
-        &:not(:last-child) {
-            margin-right: 0;
-        }
     }
 }
 @media (min-width:1500px) {
-
-
+    .Skills-Box{
+        width: 1200px;
+    }
     .Card-Container {
 
         grid-template-columns: 1fr 1fr 1fr;
